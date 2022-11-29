@@ -66,14 +66,28 @@ header nav ul li {
     text-decoration: underline;
 }
     
-.main-header-img {
+.hero-image {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("/assets/5-26-17\ fire2.jpg");
+    background-image: url("./assets/HeavResc\ 10-22-2017.jpg");
     background-size: cover;
     background-position: center;
 }
+
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 60%;
+    left: 80%;
+    transform: translate(-50%, -50%);       
+    color: white;
+    background-color: aquamarine;
+    font-size: 3.5em;
+    padding: 10px 15px;
+   }
+
+
 
 /* 
 3. Main - I used the semantic title of 'main' with 'article' as descendants. This should make the naming clear and not introduce any new class names that could cause
