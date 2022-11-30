@@ -175,12 +175,46 @@ article p {
     a descendant of the footer. */
 
 footer {
-    padding: 30px;
-    clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 30px;
+    margin-bottom: 80px;
 }
 
-footer h2 {
-    font-size: 20px;
+.contact-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
 }
+
+footer ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+footer ul li {
+    padding: 25px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: var(--primary);
+    padding: 8px;
+    font-weight: bold;
+}
+
+/*footer ul li a:hover {
+    background: var(--pop);
+    color: var(--secondary);
+    border-radius: 15px;
+}
+*/
