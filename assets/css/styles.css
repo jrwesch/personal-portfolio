@@ -24,6 +24,7 @@ body {
     font-family: Helvetica, Arial, sans-serif;
     color: var(--primary);
     background-color: var(--secondary);
+    height: 100%;
 }
 
 /* 
@@ -63,12 +64,13 @@ header nav ul li {
     font-size: 20;
     text-decoration: underline;
 }
-    
+ 
+
 .hero {
-    background-image: url("./assets/images/HeavResc\ 10-22-2017.jpg");
-    height: 450;
-    background-size: cover;
+    background-image: linear-gradient(darkgray, blue);
+    height: 450px;
     background-position: center;
+    background-size: cover;
     display: flex;
     align-items: center;
     justify-content: space-around;
