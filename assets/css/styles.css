@@ -10,7 +10,7 @@
 :root {
     --primary: #244d8c;
     --secondary: #8c9497;
-    --pop: #871414;
+    --pop: #ac3f3f;
 }
 
 * {
@@ -100,7 +100,6 @@ header nav ul li {
     display: flex;
     border-right:  solid black;
     min-height: 100%;
-    align-items: center;
     justify-content: flex-end;
     padding: 0 40px 0 0;
     min-width: 20%;
@@ -109,7 +108,6 @@ header nav ul li {
 
 .title h3 {
     display: flex;
-    align-items: stretch;
     font-size: 50px;
 }
 
@@ -142,13 +140,21 @@ article p {
 
 .project {
    display: flex;
-   justify-content: flex-end;
+   justify-content: flex-start;
    align-items: flex-end; 
    text-decoration: none;
    background-size: cover;
    background-position: center;
    opacity: 0.5;
    border: solid black;
+   border-radius: 10px;
+}
+
+.project-label {
+    padding: 10px;
+    background-color: #244d8c;
+    color: var(--pop);
+    border-radius: 15px;
 }
 
 .project:hover {
@@ -159,6 +165,10 @@ article p {
     grid-column: span 2;
     grid-row: span 2;
     background-image: url(../images/digital-marketing-meeting.jpg);
+}
+
+.coming-soon {
+    background-image: url(../images/coming-soon.jpeg);
 }
 /* 5. Footer - the last section seen on the page and is the last styled on the style sheet. Since it is semantically labeled a <footer> in the html I followed that with the CSS. The <h2> is put in as
     a descendant of the footer. */
