@@ -40,12 +40,20 @@ The website is the beginning of portfolio for jrwesch on GitHub. It will be adde
 
 ## Links
 
+<<<<<<< HEAD
 [Link to GitHub Repositorty for Personal Portfolio Project](https://github.com/jrwesch/personal-portfolio) <br> 
 [Link to GitHub Pages view of website](https://jrwesch.github.io/personal-portfolio/)
+=======
+[Link to GitHub Repositorty for Horiseon Refactor Project]() <br> 
+[Link to GitHub Pages view of website](https://jrwesch.github.io/horiseon-mainpage-refactor)
+>>>>>>> 67fa0b14085c881de3425ce722f37b50b3d5374b
 
 ## License
 
 N/A
 
 ---
+<<<<<<< HEAD
 
+=======
+>>>>>>> 67fa0b14085c881de3425ce722f37b50b3d5374b
