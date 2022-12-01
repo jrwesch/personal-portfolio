@@ -20,7 +20,6 @@
     box-sizing: border-box;
 }
 
-/* general settings for all body styling */
 body {
     font-family: Helvetica, Arial, sans-serif;
     color: var(--primary);
@@ -149,6 +148,7 @@ article p {
    opacity: 0.5;
    border: solid black;
    border-radius: 10px;
+   margin: 5px;
 }
 
 .project-label {
