@@ -31,7 +31,7 @@ The portfolio includes an About Me section as well as a section with links to my
 
 ## Site Preview
 
-[Screenshot of jrwesch personal portfolio deployed on GitHub Pages](./assets/images/portfolio-screenshot.png)
+![Screenshot of jrwesch personal portfolio deployed on GitHub Pages](./assets/images/portfolio-screenshot.png)
 
 
 ## Usage
