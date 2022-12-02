@@ -90,11 +90,7 @@ header nav ul li {
 
 
 
-/* 
-3. Main - I used the semantic title of 'main' with 'article' as descendants. This should make the naming clear and not introduce any new class names that could cause
-    confusion. The float classes are the only exception but I added '.main' to their title to avoid confusion if they ever need to be used in future versions. Again, img alt tags are left empty because
-    the images are decorative only   
-*/
+/* Styling for all articles */
 
 .title {
     display: flex;
@@ -123,6 +119,10 @@ article p {
     font-size: 1.5em;
     line-height: 1.6;
 }
+
+/* End of styling for all articles */
+
+/* Styling for My Projects Article */
 
 .my-projects-box {
     display: flex;
@@ -171,8 +171,10 @@ article p {
 .coming-soon {
     background-image: url(../images/coming-soon.jpeg);
 }
-/* 5. Footer - the last section seen on the page and is the last styled on the style sheet. Since it is semantically labeled a <footer> in the html I followed that with the CSS. The <h2> is put in as
-    a descendant of the footer. */
+
+/* End of styling for My Projects article */
+
+/* Footer styling */
 
 footer {
     display: flex;
@@ -212,9 +214,85 @@ footer ul li a {
     font-weight: bold;
 }
 
-/*footer ul li a:hover {
-    background: var(--pop);
-    color: var(--secondary);
-    border-radius: 15px;
+/* Media Query for responsiveness on tablet screens */
+
+@media screen and (max-width: 768px) {
+    .hero-text {
+        font-size: 28px;
+        padding-right: 20px;
+    }
+
+    .title h3 {
+        font-size: 35px;
+    }
+
+    article p {
+        font-size: 16px;
+        /*padding: 0 15px;*/
+        line-height: 1.6;
+    }
 }
-*/
+
+/* Media Query for responsiveness on mobile screens */
+
+@media screen and (max-width: 575px) {
+    header {
+        justify-content: center;
+        padding: 20px;
+    }
+
+    header nav ul {
+        min-height: 80px;
+    }
+
+    .hero {
+        flex-direction: column;
+    }
+
+    article {
+        flex-direction: column;
+    }
+
+    .title {
+        border-bottom: 5px solid var(--pop);
+        border-right: none;
+        text-align: center;
+        min-width: 100%;
+        max-width: 100%;
+        padding: 0;
+    }
+
+    article p {
+        font-size: 16px;
+        line-height: 1.6;
+        width: 100%;
+        padding: 15px;
+    }
+
+    .my-projects-box {
+        width: 100%;
+        padding: 10px;
+    }
+    
+    .projects-grid {
+        width: 80%;
+    }
+
+    footer {
+        flex-direction: column;
+    }
+
+    footer ul {
+        flex-direction: column;
+    }
+
+    .contact-box {
+        width: 100%;
+    }
+
+    footer ul li {
+        padding: 10px;
+        text-align: center;
+    }
+    
+}
