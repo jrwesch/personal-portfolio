@@ -1,12 +1,5 @@
-/* Table of Contents
-    1. Global 
-    2. Header 
-    3. Main   
-    5. Footer
-*/
 
-
-/* 1.  Global - styles that affect uniformly throughout the application */
+/* Global - styles that affect uniformly throughout the application */
 :root {
     --primary: #244d8c;
     --secondary: #8c9497;
@@ -27,10 +20,7 @@ body {
     height: 100%;
 }
 
-/* 
-2. Header - contains a navigation section with links to articles on the main page of the app. The main-header-img has an alt tag but it is left empty because the
-    image is purely decorative    
-*/
+/* Header - contains a navigation section with links to articles on the main page of the app. */
 
 header {
     padding: 20px;
@@ -88,9 +78,7 @@ header nav ul li {
     color: lightgray;
    }
 
-
-
-/* Styling for all articles */
+/* Styling for all articles. There are two main articles - About Me and My Projects */
 
 .title {
     display: flex;
@@ -174,7 +162,7 @@ article p {
 
 /* End of styling for My Projects article */
 
-/* Footer styling */
+/* Footer styling. Footer contains Contact Me info */
 
 footer {
     display: flex;
@@ -223,7 +211,7 @@ footer ul li a {
     }
 
     .title h3 {
-        font-size: 35px;
+        font-size: 30px;
     }
 
     article p {
@@ -237,7 +225,6 @@ footer ul li a {
 
 @media screen and (max-width: 575px) {
     header {
-        justify-content: center;
         padding: 20px;
     }
 
@@ -259,7 +246,10 @@ footer ul li a {
         text-align: center;
         min-width: 100%;
         max-width: 100%;
-        padding: 0;
+    }
+
+    .title h3 {
+        font-size: 30px;
     }
 
     article p {
@@ -276,6 +266,7 @@ footer ul li a {
     
     .projects-grid {
         width: 80%;
+        flex-direction: column;
     }
 
     footer {
