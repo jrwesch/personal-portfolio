@@ -85,6 +85,7 @@ header nav ul li {
     border-right:  solid black;
     min-height: 100%;
     justify-content: flex-end;
+    flex-wrap: wrap;
     padding: 0 40px 0 0;
     min-width: 20%;
     max-width: 20%;
@@ -167,7 +168,8 @@ article p {
 footer {
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
+    /*flex-wrap: wrap;*/
+    align-items: stretch;
     padding-top: 30px;
     margin-bottom: 80px;
 }
@@ -238,6 +240,7 @@ footer ul li a {
 
     article {
         flex-direction: column;
+        padding: 30px 0;
     }
 
     .title {
@@ -266,7 +269,6 @@ footer ul li a {
     
     .projects-grid {
         width: 80%;
-        flex-direction: column;
     }
 
     footer {
