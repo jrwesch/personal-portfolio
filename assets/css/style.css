@@ -87,13 +87,14 @@ header nav ul li {
     justify-content: flex-end;
     flex-wrap: wrap;
     padding: 0 40px 0 0;
-    min-width: 20%;
-    max-width: 20%;
+    min-width: 30%;
+    max-width: 30%;
 }
 
 .title h3 {
     display: flex;
     font-size: 50px;
+    text-align: center;
 }
 
 article {
