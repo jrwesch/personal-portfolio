@@ -106,7 +106,7 @@ article {
 article p {
     padding: 0 30px;
     width: 90%;
-    font-size: 1.5em;
+    font-size: 1.2em;
     line-height: 1.6;
 }
 
@@ -152,9 +152,13 @@ article p {
     opacity: 1.0;
 }
 
-.horiseon {
+.food-and-drink {
     grid-column: span 2;
     grid-row: span 2;
+    background-image: url(../images/food-and-drink.png);
+}
+
+.horiseon { 
     background-image: url(../images/digital-marketing-meeting.jpg);
 }
 
